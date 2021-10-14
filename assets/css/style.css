@@ -49,7 +49,7 @@ figure {
 /*Set profile picture as absolute in order to freely position it to where I so desire including when setting up resizing settings*/
 /*Resize the profile picture via css instead of an image editor to gain more comfort with css settings*/
 #profile-pic {
-    height: 125px;
+    height: 150px;
     position: absolute;
     top: 15px;
     left: 15px;
@@ -137,8 +137,8 @@ a {
 }
 
 /*Adjust the settings of the first box to ensure it is the largest one of the entire grid container*/
-.horiseon {
-    background-image: url(../images/port-1-img.png);
+.movie-roulette {
+    background-image: url(../images/project-1-screenshot.png);
     background-size: auto;
     background-repeat: no-repeat;
     grid-column: span 8;
@@ -147,12 +147,6 @@ a {
 
 /*Provide background image for each coming soon section*/
 /*Once again ensure that the image does not repeat itself [problem that occured during resizing]*/
-.movie-roulette {
-    background-image: url(../images/project-1-screenshot.png);
-    background-size: 110%;
-    background-repeat: no-repeat;
-}
-
 .weather-tracker {
     background-image: url(../images/port-6-screenshot.png);
     background-size: 100%;
@@ -167,7 +161,13 @@ a {
 
 .code-quiz {
     background-image: url(../images/port-4-screenshot.png);
-    background-size: 120%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.horiseon {
+    background-image: url(../images/port-1-img.png);
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
